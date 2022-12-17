@@ -12,9 +12,9 @@ repositories {
 dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.0")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.0")
-
-    compileOnly("io.vertx:vertx-core:4.3.5")
-    implementation("io.vertx:vertx-hazelcast:4.3.5")
+    // https://mvnrepository.com/artifact/io.vertx/vertx-core
+    implementation("io.vertx:vertx-core:4.3.6")
+    implementation(project(":vertexses"))
     implementation(project(":models"))
 }
 
