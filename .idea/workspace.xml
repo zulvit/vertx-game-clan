@@ -4,33 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a42c8d1-6784-4ea9-bd74-9c7389d57cc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinScripting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/launchers/src/main/java/ru/zulvit/AdminLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/launchers/src/main/java/ru/zulvit/MainLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/launchers/src/main/java/ru/zulvit/MemberLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/src/main/java/ru/zulvit/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/src/main/java/ru/zulvit/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vertexses/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vertexses/src/main/java/ru/zulvit/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vertexses/src/main/java/ru/zulvit/admin/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vertexses/src/main/java/ru/zulvit/moderator/Moderator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vertexses/src/main/java/ru/zulvit/user/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5a42c8d1-6784-4ea9-bd74-9c7389d57cc2" name="Changes" comment="-init2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/ru/zulvit/AdminVerticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/ru/zulvit/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/launchers/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/ru/zulvit/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/models/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launchers/src/main/java/ru/zulvit/MemberLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/launchers/src/main/java/ru/zulvit/MemberLauncher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/src/main/java/ru/zulvit/Clan.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/ru/zulvit/Clan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/ru/zulvit/Events.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/ru/zulvit/Events.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/ru/zulvit/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/ru/zulvit/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/ru/zulvit/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/src/main/java/ru/zulvit/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/ru/zulvit/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertexses/src/main/java/ru/zulvit/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertexses/src/main/java/ru/zulvit/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertexses/src/main/java/ru/zulvit/admin/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertexses/src/main/java/ru/zulvit/admin/Admin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,8 +143,16 @@
       <workItem from="1670975489295" duration="2951000" />
       <workItem from="1671031872247" duration="708000" />
       <workItem from="1671114973980" duration="3526000" />
-      <workItem from="1671267891396" duration="16289000" />
+      <workItem from="1671267891396" duration="19605000" />
     </task>
+    <task id="LOCAL-00001" summary="-init2">
+      <created>1671312139095</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671312139095</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +168,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-init2" />
+    <option name="LAST_COMMIT_MESSAGE" value="-init2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -7,6 +7,9 @@ import ru.zulvit.Data;
 import ru.zulvit.Events;
 import ru.zulvit.Player;
 import ru.zulvit.moderator.Moderator;
+import ru.zulvit.user.Member;
+
+import java.util.ArrayList;
 
 import static ru.zulvit.Clan.MAX_AMOUNT_PERSON_IN_CLAN;
 
@@ -19,6 +22,7 @@ public class Admin extends Moderator {
     @Override
     public void start(Promise<Void> startPromise) throws Exception {
         vertx.executeBlocking(completion -> {
+
             JsonObject jsonObject = new JsonObject();
             jsonObject.put(Data.MAP_CLAN_NAME, Clan.generateRandomName());
             jsonObject.put(Data.MAP_CLAN_MAX_PEOPLE, MAX_AMOUNT_PERSON_IN_CLAN);

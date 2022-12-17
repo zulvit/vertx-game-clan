@@ -15,15 +15,13 @@ public class Clan implements Serializable {
     @JsonProperty("countMaxMembers")
     private final int countMaxMembers;
     @JsonProperty("members")
-    private final List<Player> members;
+    private List<Player> members;
 
     @JsonCreator
     public Clan(@JsonProperty("clanName") String clanName,
-                @JsonProperty("countMaxMembers") int countMaxMembers,
-                @JsonProperty List<Player> members) {
+                @JsonProperty("countMaxMembers") int countMaxMembers) {
         this.clanName = clanName;
         this.countMaxMembers = countMaxMembers;
-        this.members = members;
     }
 
     public String getClanName() {
@@ -48,11 +46,11 @@ public class Clan implements Serializable {
     }
 
     public static final class Factory {
-        public Clan build(String name, int maxPerson, List<Player> members) {
+        public Clan build(String name, int maxPerson) {
             if (name == null) {
-                return new Clan(generateRandomName(), maxPerson, members);
+                return new Clan(generateRandomName(), maxPerson);
             } else {
-                return new Clan(name, maxPerson, members);
+                return new Clan(name, maxPerson);
             }
         }
     }
